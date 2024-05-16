@@ -1,14 +1,13 @@
 
 # Explainable Recommendations
 
-This project has been voted the best open-source project from the Tubi 2024 Hackathon event 🏆.
+## 🏆 Winner of the Best Open-Source Project Award at the Tubi 2024 Hackathon ##
 
-Giving explanation to recommendations could gain users' trust and help convert a recommendation to a viewership.
+The aim of this project is to generate explanations for recommendations provided to users. By offering clear and understandable explanations, we aim to build users' trust and increase the likelihood of converting recommendations into actual viewership.
 
-This project creates a service to provide explanations for given item ids and device id.
+This project develops a service that delivers explanations for any given item IDs and device ID. It is designed to be model-agnostic, meaning it can work seamlessly with any recommendation models used to generate the initial recommendations.
 
-This project works no matter which models are used to generate those recommendations.
-
+The concept of this project can be easily adapted to various business use cases, including short videos, movies, products, news, and music recommendations in the e-commerce, entertainment, and streaming industries.
 
 
 ## How to run
@@ -29,4 +28,4 @@ python3 ./main.py
 ```
 ### Demo how to run
 
-Watch Demo.mp4
+Download and watch Demo.mp4
