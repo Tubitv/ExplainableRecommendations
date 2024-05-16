@@ -1,0 +1,10 @@
+data
+item_df.parquet
+user_df.parquet
+*.pickle
+__pycache__/
+cert.pem
+.idea/
+copy_production_data.sh
+key.pem
+tempermonkey_web_home_script.js

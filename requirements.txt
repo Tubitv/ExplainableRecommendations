@@ -1,0 +1,5 @@
+Flask==3.0.1
+pyOpenSSL==24.0.0
+Flask_Cors==4.0.0
+Faker==22.5.1
+pyspark==3.5.1
