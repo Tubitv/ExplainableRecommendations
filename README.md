@@ -9,6 +9,16 @@ This project develops a service that delivers explanations for any given item ID
 
 The concept of this project can be easily adapted to various business use cases, including short videos, movies, products, news, and music recommendations in the e-commerce, entertainment, and streaming industries.
 
+## Architecture design
+
+![img.png](img/architecture_design.png)
+
+Each explanation type has a dedicated component in both the precompute pipeline and the explanation retriever.
+
+The precompute pipeline saves intermediate data, ensuring that the explanation retriever can generate explanations in real-time.
+
+The system is designed to be scalable, allowing for the addition of more types of explanations as needed.
+
 
 ## How to run
 
@@ -31,4 +41,4 @@ python3 ./main.py
 Download and watch Demo.mp4
 
 API Result Demo
-![img.png](Demo.png)
+![img.png](img/Demo.png)
